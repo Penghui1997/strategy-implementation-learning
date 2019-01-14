@@ -1,3 +1,4 @@
+# Strategy-implementation learning group
 # 1st Meeting programme
 + Date: Friday, 11 Jan 2019
 + Time: 3.00pm to 5.00pm
@@ -17,6 +18,7 @@ ___
 #### historical data 
 + high freq: time interval less than 0.5 s
 + low freq: interval more than 1 minitue
+
 ####  investing strategy
 + when to buy, what product to buy, at what price
 #### computer programming
@@ -26,25 +28,15 @@ ___
 #### product classfication: stock, CTA(mainly for option), option, FOF
 #### arbitrage ( the core is Mean Reversion, event-driven,fx/ bond）, hedge （core is risk management, buy / sell stock/index future.
 #### trading signal: multi-factor, mean-reversion, momentum, machine learning
-### strategy implementation steps
-#### global parameter
-+ frequency to change postion
-+ postion number
-+ backtesting time interval
-+ inital_value
-+ data
-#### local parameter
-+ data pool
-+ fees
-#### trading parameter
-+ signal operation
 
 ### common platform used
 * quantopian (platform for backtesting strategy)
 ___
 ## Discussing
 ### which part to focus on
-+ we can use well-build platform, more data, friendly outlook, 
-+ we build our own, starting from basic one
++ we build our own strategy implementation structure, starting from basic level
++ well-built platform with more data, friendly outlook, can be used as extention learning tool
 
 ### how do we organize
++ Learn from fulfill each task
++ We meet twice a month, share the code and determine next task.
