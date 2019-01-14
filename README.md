@@ -40,3 +40,18 @@ ___
 ### how do we organize
 + Learn from fulfill each task
 + We meet twice a month, share the code and determine next task.
+ ___
+ 
+# Task 1 Description
++ Data: Using data from Dr.Zhao\`s lectures, S3-5, named `CC3.SI.csv`.
++ Time interval: The same as the data\`s
++ Strategy: When the MA5 crossing 
+    + when 15 MA exceed 50 MA, immediately buy the stock (no delay)
+    + when 50 MA exceed 15 MA, immediately sell the stock (no delay)
+
++ Requried outcome
+    + Complusory: Plot the date (on the x axis) vs net value (on the y axis). 
+    + option: Show daily the transactions log & daily postion value
++ Using two methods
+     + fix the each trade postion: number of share of each time is 1000
+     + fix the initial value: 10000
